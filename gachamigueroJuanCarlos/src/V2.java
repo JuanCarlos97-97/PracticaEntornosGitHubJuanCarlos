@@ -4,7 +4,7 @@ public class V2 {
         int numero = Integer.parseInt(n);
         if(numero%3 == 0)
             return "Gacha";
-        if(numero == 5)
+        if(numero % 5 == 0)
             return "Miga";
         return num;
     }
