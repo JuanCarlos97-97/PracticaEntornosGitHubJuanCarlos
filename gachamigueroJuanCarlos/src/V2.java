@@ -4,7 +4,8 @@ public class V2 {
         int numero = Integer.parseInt(n);
         if(numero == 3)
             return "Gacha";
-
+        if(numero == 5)
+            return "Miga";
         return num;
     }
 }
