@@ -25,4 +25,9 @@ public class Test {
         String result = V2.metodo("5");
         Assertions.assertEquals("Miga",result);
     }
+    @org.junit.jupiter.api.Test
+    public void testFor6() {
+        String result = V2.metodo("6");
+        Assertions.assertEquals("Gacha",result);
+    }
 }
